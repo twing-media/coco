@@ -1,6 +1,6 @@
 # Coco ✨ Colourful console
 
-![PREVIEW](images/SS4.png)
+![PREVIEW](https://github.com/twing-media/coco/blob/main/images/SS4.png?raw=true)
 
 
 coco makes console colourful using simple functions.
