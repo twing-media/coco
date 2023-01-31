@@ -1,12 +1,12 @@
 import 'package:coco/coco.dart';
 
 void main() {
-  /// coco makes console colorful using simple functions
+  /// coco makes console colourful using simple functions
   /// use [write] to print any string in beautiful colors
   'coco '.write(inPurple);
   'makes '.write(inGray);
   'console '.write(inBold & inGray);
-  'colorful '.write(inColorfulLetters & inItalics);
+  'colourful '.write(inColourfulLetters & inItalics);
   'using '.write(inGray);
   'simple '.write(inGray);
   'functions.'.writeLine(inGray);
@@ -22,7 +22,7 @@ void main() {
 
   /// combine multiple colors and styles using [&] operator
   'combine multiple '.write(inSubtleColors);
-  'colors '.write(inColorfulLetters);
+  'colors '.write(inColourfulLetters);
   'and '.write(inSubtleColors);
   'styles '.write(inFunkyLetters);
   'using '.write(inSubtleColors);
@@ -31,5 +31,5 @@ void main() {
   'Now you can really '.write(inSubtleColors);
 
   /// go crazy with your console!❤️
-  'go crazy with your console! ❤️'.print(inColorfulLetters);
+  'go crazy with your console! ❤️'.print(inColourfulLetters);
 }

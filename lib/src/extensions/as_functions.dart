@@ -19,7 +19,7 @@ extension CocoStringAsExtensions on String {
   }
 
   //returns each character in different color
-  String get inColorfulChars {
+  String get inColourfulChars {
     var stringbuilder = StringBuffer();
     for (var i = 0; i < length; i++) {
       stringbuilder.write(this[i].inRandom.cancelReset);
@@ -28,7 +28,7 @@ extension CocoStringAsExtensions on String {
   }
 
   //returns each word in different color
-  String get inColorfulWords {
+  String get inColourfulWords {
     var stringbuilder = StringBuffer();
     final words = split(' ');
     for (var i = 0; i < words.length; i++) {
@@ -38,7 +38,7 @@ extension CocoStringAsExtensions on String {
   }
 
   //returns each sentence in different color
-  String get inColorfulSentences {
+  String get inColourfulSentences {
     var stringbuilder = StringBuffer();
     final sentences = split('.');
     for (var i = 0; i < sentences.length; i++) {
@@ -48,7 +48,7 @@ extension CocoStringAsExtensions on String {
   }
 
   //returns each paragraph in different color
-  String get inColorfulParagraphs {
+  String get inColourfulParagraphs {
     var stringbuilder = StringBuffer();
     final paragraphs = split('\n');
     for (var i = 0; i < paragraphs.length; i++) {
@@ -71,7 +71,7 @@ extension CocoStringInSubtleColors on String {
 
 class Text {
   //returns each character in different color using as()
-  static String withColorfulLetters(String s) {
+  static String withColourfulLetters(String s) {
     var stringbuilder = StringBuffer();
     for (var i = 0; i < s.length; i++) {
       stringbuilder.write(s[i].inRandom);
@@ -119,11 +119,11 @@ CocoFunc inPurple = (String s) => s.inMagenta;
 
 CocoFunc inRandom = (String s) => s.inRandom;
 
-CocoFunc inColorfulLetters = (String s) => s.inColorfulChars;
+CocoFunc inColourfulLetters = (String s) => s.inColourfulChars;
 
-CocoFunc inColorfulWords = (String s) => s.inColorfulWords;
+CocoFunc inColourfulWords = (String s) => s.inColourfulWords;
 
-CocoFunc inColors = (String s) => s.inColorfulWords;
+CocoFunc inColors = (String s) => s.inColourfulWords;
 
 CocoFunc inItalics = (String s) => s.inItalics;
 
@@ -133,9 +133,9 @@ CocoFunc withUnderline = (String s) => s.inUnderline;
 
 CocoFunc inUnderline = (String s) => s.inUnderline;
 
-CocoFunc inColorfulSentences = (String s) => s.inColorfulSentences;
+CocoFunc inColourfulSentences = (String s) => s.inColourfulSentences;
 
-CocoFunc inColorfulParagraphs = (String s) => s.inColorfulParagraphs;
+CocoFunc inColourfulParagraphs = (String s) => s.inColourfulParagraphs;
 
 CocoFunc inSubtleColors = (String s) => s.inSubtleColors;
 

@@ -1,10 +1,10 @@
-# Coco ✨ Colorful console
+# Coco ✨ Colourful console
 
 ![PREVIEW](images/SS4.png)
 
 
-coco makes console colorful using simple functions.
-some handy functions to make your console output colorful and beautiful.
+coco makes console colourful using simple functions.
+some handy functions to make your console output colourful and beautiful.
 check out the example below to see how easy it is to use coco.
 
 
@@ -12,12 +12,12 @@ check out the example below to see how easy it is to use coco.
 import 'package:coco/coco.dart';
 
 void main() {
-  /// coco makes console colorful using simple functions
+  /// coco makes console colourful using simple functions
   /// use [write] to print any string in beautiful colors
   'coco '.write(inPurple);
   'makes '.write(inGray);
   'console '.write(inBold & inGray);
-  'colorful '.write(inColorfulLetters & inItalics);
+  'colourful '.write(inColourfulLetters & inItalics);
   'using '.write(inGray);
   'simple '.write(inGray);
   'functions.'.writeLine(inGray);
@@ -33,7 +33,7 @@ void main() {
 
   /// combine multiple colors and styles using [&] operator
   'combine multiple '.write(inSubtleColors);
-  'colors '.write(inColorfulLetters);
+  'colors '.write(inColourfulLetters);
   'and '.write(inSubtleColors);
   'styles '.write(inFunkyLetters);
   'using '.write(inSubtleColors);
@@ -42,7 +42,7 @@ void main() {
   'Now you can really '.write(inSubtleColors);
 
   /// go crazy with your console!❤️
-  'go crazy with your console! ❤️'.print(inColorfulLetters);
+  'go crazy with your console! ❤️'.print(inColourfulLetters);
 }
 
 ```
