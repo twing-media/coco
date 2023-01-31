@@ -1,7 +1,10 @@
 # Coco ✨ Colorful console
 
-Helps you to print colorful text in the console with ease.
-because who doesn't like colorful console?
+![PREVIEW](images/SS4.png)
+
+
+coco makes console colorful using simple functions.
+some handy functions to make your console output colorful and beautiful.
 check out the example below to see how easy it is to use coco.
 
 

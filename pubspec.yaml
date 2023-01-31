@@ -1,7 +1,8 @@
 name: coco
-description: A starting point for Dart libraries or applications.
+description: coco makes console colorful
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/twing-media/coco
+homepage: https://github.com/twing-media
 
 environment:
   sdk: '>=2.19.0-444.2.beta <3.0.0'
