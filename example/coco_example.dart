@@ -1,35 +1,68 @@
 import 'package:coco/coco.dart';
 
 void main() {
-  /// coco makes console colourful using simple functions
-  /// use [write] to print any string in beautiful colors
-  'coco '.write(inPurple);
-  'makes '.write(inGray);
-  'console '.write(inBold & inGray);
-  'colourful '.write(inColourfulLetters & inItalics);
-  'using '.write(inGray);
-  'simple '.write(inGray);
-  'functions.'.writeLine(inGray);
+  asInfo.print(
+      ["coco", "makes", 5, "colorful", "coco", "makes", "console", "colorful"]);
 
-  /// use [print] or [writeLine] to add a line break at the end of the string
-  'use '.write(inSubtleColors);
-  'write(✨) '.write(inRed);
-  'or '.write(inSubtleColors);
-  'print(✨) '.write(inRed);
-  'to add a '.write(inSubtleColors);
-  'line break ✂️'.write(inItalics & inShadesOfBlue & breakLine);
-  'at the end of the string.'.print(inSubtleColors);
-
-  /// combine multiple colors and styles using [&] operator
-  'combine multiple '.write(inSubtleColors);
-  'colors '.write(inColourfulLetters);
-  'and '.write(inSubtleColors);
-  'styles '.write(inFunkyLetters);
-  'using '.write(inSubtleColors);
-  '[&] '.write(inRed);
-  'operator.'.writeLine(inSubtleColors);
-  'Now you can really '.write(inSubtleColors);
-
-  /// go crazy with your console!❤️
-  'go crazy with your console! ❤️'.print(inColourfulLetters);
+  /// Print with different asItyle s
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asInfo);
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asSuccess);
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asWarning);
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asCaution);
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asError);
+  [
+    "coco",
+    "makes",
+    "console",
+    "colorful",
+    "coco",
+    "makes",
+    "console",
+    "colorful"
+  ].print(asRandom);
 }
